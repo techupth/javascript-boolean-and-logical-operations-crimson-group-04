@@ -4,14 +4,11 @@
 let lastMonthPaidMoreThan4000 = true;
 let isWeekday = true;
 let hasBoughtProductFromITCategory = false;
-let hasAttendedDiscountEvent = true;
+let hasAttendedDiscountEvent = false;
 let isPlatinum = false;
 
-let hasPromotion =
-  (lastMonthPaidMoreThan4000 &&
-    isWeekday &&
-    hasBoughtProductFromITCategory &&
-    hasAttendedDiscountEvent) ||
-  isPlatinum;
+let hasPromotion = (lastMonthPaidMoreThan4000 && isWeekday && hasBoughtProductFromITCategory
+    && hasAttendedDiscountEvent) || isPlatinum;
+
 
 console.log(hasPromotion);
