@@ -3,7 +3,7 @@
 // Start coding here
 let lastMonthPaidMoreThan4000 = true;
 let isWeekday = true;
-let hasBoughtProductFromITCategory = true;
+let hasBoughtProductFromITCategory = false;
 let hasAttendedDiscountEvent = false;
 let isPlatinum = false;
 

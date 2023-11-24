@@ -1,5 +1,5 @@
 let isOver18 = false;
-let hasCriminalBlacklist = true;
+let hasCriminalBlacklist =  false;
 
 let isAllow = isOver18 && hasCriminalBlacklist;
 
